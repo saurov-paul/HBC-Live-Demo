@@ -26,3 +26,20 @@ vendor
 
 .env.local
  
+=======
+web/modules/contrib
+web/themes/contrib
+web/sites/default/files
+web/libraries/*
+vendor
+ 
+# Ignore OSX generated files
+._*
+.DS_Store
+ 
+!*.gitkeep
+!*.keepme
+*.sql
+*.sql.gz
+.env.local
+
